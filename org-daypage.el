@@ -1,6 +1,6 @@
 ;; org-daypage.el --- Org-Mode Day Page.
 ;;
-;; Copyright (C) 2010-2012 Thomas Parslow
+;; Copyright (C) 2010-2011 Thomas Parslow
 ;;
 ;; Author: Thomas Parslow <tom@almostobsolete.net>
 ;; Created: June, 2010
