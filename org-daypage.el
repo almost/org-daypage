@@ -148,8 +148,9 @@ org-time-stamp except the default date will be the date of the daypage."
   (interactive)
   (todays-daypage)
   (end-of-buffer)
-  (kill-whitespace)
-  (insert "\n\n* <" (format-time-string "%Y-%m-%d %a" (daypage-date)) "> "))
+  (if (not (bolp))
+      (insert "\n"))
+  (insert "* <" (format-time-string "%Y-%m-%d %a" (daypage-date)) "> "))
 
 
 (provide 'org-daypage)
